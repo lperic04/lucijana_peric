@@ -4,7 +4,46 @@
     <meta charset="UTF-8">
     <meta name="autor" content="lucijana_peric">
     <meta name="opis" content="recepti">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>Recepti</title>
+    <style>
+        h1{
+            color: rgb(58, 155, 157);
+        }
+        body{
+            background-color: rgb(229, 116, 116);
+        }
+        h3{
+            color: aqua;
+        }
+        h2{
+            color: rgb(171, 2, 64)
+        }
+        .container{
+            display: grid;
+            gap: 10px;
+        }
+        .one{
+            background-color: white;
+            grid-column: span 12;
+            grid-row: span 5;
+        }
+        .two{
+            background-color: white;
+            grid-column: span 8;
+            grid-row: span 7;
+        }
+        .three{
+            background-color: white;
+            grid-column: span 4;
+            grid-row: span 7;
+        }
+        @media only screen and (max-width: 480px) {
+   
+}
+
+    </style>
+    </style>
 </head>
 <body>
     <h1>Recepti slanih i slatkih jela</h1>
@@ -133,6 +172,12 @@
     <li>Poslužite ih u papirnim košaricama, dobro ohlađene.</li>
 </ul>
 <img src="slike jela/rafaelo_kuglice.jpg" alt="Rafaelo kuglice" width="300">
+<hr> <br>
+<div class="container">
+    <div class="one">A</div>
+    <div class="two">B</div>
+    <div class="three">C</div>
+</div>
 
 
 </body>
