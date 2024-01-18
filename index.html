@@ -5,59 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Moja web stranica</title>
-   <!--  <style>
-        h1{
-            color:red;
-        }
-    </style> -->
+    <link rel="stylesheet" href="styles/styles.css"
+    <title></title>
+  
 </head>
 <body>
-    <h1>Naslov 1</h1>
-    <h2>Naslov 2</h2>
-    <h3>Naslov 3</h3>
-    <h4>Naslov 4</h4>
-    <h5>Naslov 5</h5>
-    <h6>Naslov 6</h6>
-    <!--  ovdje kreće paragraf  -->
-    <p class="paragraf1">ovo je neki paragraf
-    ovo je prvi red
-    ovo je drugi red
-    ovo je treći red
-    </p>
-    <pre>
-        ovo je prvi red
-        ovo je drugi red
-        ovo je treći red
-    </pre>
-    <p id="paragraf2">
-        Jučer smo igrali <strong>loše</strong> , jako <em>loše</em>  to nije bilo <mark>prepoznatljivo</mark> prepoznatljivo. 
-        nakon dugo <del>vremena</del> vremena imali smo utakmicu gdje smo svi bili loši. 
-        Ja ću preuzeti odgovornost na sebe jer očito taktički nisam dobro pripremio utakmicu...
-        Teško je pao svima poraz, nismo naučili na ovakve stvari, 
-        podigli smo letvicu jako visoko i teško je to održati. 
-        ne kukam nikad nikad, nisam sklon ni tragediji ni euforiji. 
-        Žao mi je što izgubili u ovakvoj atmosferi. 
-        Žao mi je zbog tih ljudi, isprika svima njima - kazao je Dalić.
-    </p>
-    <p>Formula za teoriju relativnosti je E=MC<sup>2</sup></p>
-    <h2>Liste</h2>
-<p>Zemlje:</p>
-<ul>
-    <li>Hrvatska</li>
-    <li>Bosna</li>
-    <li>Slovenija</li>
-    <li>Crna Gora</li>
-</ul>
-<p>Zemlje u okrzuženju:</p>
-<ol type="a"reversed> 
-    <li>Hrvatska</li>
-    <li>Slovenija</li>
-    <li>Bosna</li>
-</ol>
-<p>Definition list</p>
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class="col-lg-6 px-0">
+          <h1 class="display-4 fst-italic">Moja web stranica</h1>
+          <p class="lead my-3">Moje ime je Lucijana Perić, studentica sam 3. godine Učiteljskog studija. Na ovoj web stranici možete pogledati zadatke koje sam radila na kolegiju Web programiranje. Nadam se da ćete uživati!</p>
+          <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">U nastavku pogledajte...</a></p>
+        </div>
+  
+<hr> <br>
+<h3> Ugradnja slike</h2>
+    
+
 <dl>
     <dt>London</dt>
     <dd>glavni grad Engleske</dd>
@@ -66,6 +31,7 @@
     <dd>glavni grad Francuske</dd>
     <img src="slike/pariz.jpg" alt="slika Pariza" width="350" height="300">
 </dl>
+<hr> <br>
 <h3>URL slike</h3>
 <p>Logo UNISB</p>
 <img src="https://www.unisb.hr/wp-content/uploads/design/logo_s_f.png" alt="logo UNISB">
@@ -79,15 +45,8 @@
     <li><a href="link2.html">Link 2</a></li>
     <li><a href="link3.html">Link 3</a></li>
 </ul>
-<h3> Zadaće </h3>
-<ol>
-    <li><a href="zadaće/zadaca1.html">zadaća</a></li>
-    <li><a href="zadaće/zadaca2.html">zadaća</a></li>
-    <li><a href="zadaće/zadaca3.html">zadaća</a></li>
-    <li><a href="zadaće/zadaca4.html">zadaća</a></li>
-    <li><a href="zadaće/zadaca5.html">zadaća</a></li>
-    <li><a href="zadaće/zadaca6.html">zadaća</a></li>
-</ol>
+<hr> <br>
+
 <h3> Tablice u HTML -u</h3>
 <table border="1">
     <tr>
@@ -185,6 +144,7 @@
 <td>Home</td>
     </tr>
 </table> 
+<hr> <br>
 <h3>Forme (obrasci) u HTML-u</h3>
 
 <form name="obrazac1" method="post" autocomplete="off" action="link1.html">
@@ -228,6 +188,8 @@
     </p>
     <hr>
     <br> 
+    <hr> <br>
+
     <h3>HTML form</h3>
     <p>
         <label for="">First name:</label>
@@ -250,12 +212,48 @@
 
     </p>
 </form>
-<br>
+ <hr> <br>
 <h3> Ugradnja videozapisa</h3>
 <iframe width="560" height="315" 
 src="https://www.youtube.com/embed/Cp4Rxh1ZqzA?si=KFOBlSEg7iAxFpPO" 
 title="YouTube video player" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 allowfullscreen></iframe>
+<hr> <br>
+<h3> Zadaće </h3>
+<ol>
+    <li><a href="zadaće/zadaca1.html">zadaća</a></li>
+    <li><a href="zadaće/zadaca2.html">zadaća</a></li>
+    <li><a href="zadaće/zadaca3.html">zadaća</a></li>
+    <li><a href="zadaće/zadaca4.html">zadaća</a></li>
+    <li><a href="zadaće/zadaca5.html">zadaća</a></li>
+    <li><a href="zadaće/zadaca6.html">zadaća</a></li>
+</ol>
+<hr> <br>
+<div class="container my-5">
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+      <h1 class="text-body-emphasis">Hvala!</h1>
+      <p class="lead">
+        Nadam se da ste uživali u mojoj Web stranici i da ste našli nešto za sebe! 
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </footer>
+  </div>
 </body>
 </html>
